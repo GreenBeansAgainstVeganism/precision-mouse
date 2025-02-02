@@ -1,4 +1,8 @@
 # precision-mouse
+
+[Click here to download the latest version!](https://github.com/GreenBeansAgainstVeganism/precision-mouse/releases/latest/download/precision_mouse.exe)
+
+![app interface](interface.png)
  
 A small utility I wrote in Python with Tkinter to allow users fine control over their mouse cursor position. Most of the utility of this tool can be achieved with any standard auto-clicker or macro recorder program but this tool was specifically designed for map making in Bloons Tower Defense 6, so it offers a simpler workflow for a particular set of actions.
 
