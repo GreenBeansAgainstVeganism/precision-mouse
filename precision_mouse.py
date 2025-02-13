@@ -117,7 +117,7 @@ spinbox2 = ttk.Spinbox(
     textvariable=yoffset,
     validate="key")
 spinbox2.pack(side=RIGHT)
-validate2 = SpinboxValidator(spinbox1,-sheight,sheight)
+validate2 = SpinboxValidator(spinbox2,-sheight,sheight)
 spinbox2.config(validatecommand=(root.register(validate2.validate),'%P'))
 
 ttk.Label(frm,textvariable=infotext,justify=CENTER).pack()
